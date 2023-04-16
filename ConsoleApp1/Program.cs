@@ -20,6 +20,5 @@ else
     double b = a * c;
     double d = Convert.ToInt32(b);
     double x = a + d;
-    x = Convert.ToInt32(x);
     Console.WriteLine(x);
 }
