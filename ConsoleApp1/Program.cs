@@ -12,11 +12,13 @@ else
 
     int a = (money * 12);
     double c;
-    if (money < 5000)
-    { c = 0.1; }
+    if (money < 5000) {
+      c = 0.1; 
+    }
 
-    else
-    { c = 0.3; }
+    else {
+      c = 0.3; 
+    }
     double b = a * c;
     double d = Convert.ToInt32(b);
     double x = a + d;
